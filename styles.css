@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-/* Header */
 header {
     background-color: black;
     padding: 15px;
@@ -7,7 +5,8 @@ header {
     justify-content: center;
     align-items: center;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -38,7 +37,7 @@ button {
 .styled-table {
     border-collapse: collapse;
     width: 90%;
-    margin:10px auto;
+    margin: 10px auto;
 }
 
 .styled-table th,
@@ -108,115 +107,115 @@ a {
 .purchase-table th {
     background-color: #009879;
     color: white;
-=======
-/* Header */
-header {
-    background-color: black;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-*{
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
 
-header h1 {
-    color: white;
-    margin: 0;
-    font-size: 30px;
-}
+    /* Header */
+    header {
+        background-color: black;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-/* Navigation */
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-/* Button */
-button {
-    background-color: green;
-    color: white;
-    border: none;
-    padding: 6px 12px;
-}
+    header h1 {
+        color: white;
+        margin: 0;
+        font-size: 30px;
+    }
 
-/* Main table */
-.styled-table {
-    border-collapse: collapse;
-    width: 90%;
-    margin:10px auto;
-}
+    /* Navigation */
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+    }
 
-.styled-table th,
-.styled-table td {
-    padding: 8px;
-}
+    /* Button */
+    button {
+        background-color: green;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+    }
 
-.styled-table thead tr {
-    background-color: #009879;
-    color: white;
-    text-align: left;
-}
+    /* Main table */
+    .styled-table {
+        border-collapse: collapse;
+        width: 90%;
+        margin: 10px auto;
+    }
 
-tbody tr:nth-child(even) {
-    background: #f2f7f5;
-}
+    .styled-table th,
+    .styled-table td {
+        padding: 8px;
+    }
 
-tbody tr:nth-child(odd) {
-    background: #e0efe9;
-}
+    .styled-table thead tr {
+        background-color: #009879;
+        color: white;
+        text-align: left;
+    }
 
-/* Investor profile */
-.investor-profile {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 10px;
-}
+    tbody tr:nth-child(even) {
+        background: #f2f7f5;
+    }
 
-.profile-pic {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
+    tbody tr:nth-child(odd) {
+        background: #e0efe9;
+    }
 
-/* Investor info */
-.investor-info h2 {
-    margin: 0;
-}
+    /* Investor profile */
+    .investor-profile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 10px;
+    }
 
-.investor-info p {
-    margin: 3px 0;
-}
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
 
-/* Links */
-a {
-    text-decoration: none;
-    background-color: #009879;
-    color: white;
-    padding: 4px 8px;
-    border-radius: 3px;
-}
+    /* Investor info */
+    .investor-info h2 {
+        margin: 0;
+    }
 
-/* Purchase table */
-.purchase-table {
-    width: 90%;
-    border-collapse: collapse;
-    margin: 10px auto;
-}
+    .investor-info p {
+        margin: 3px 0;
+    }
 
-.purchase-table th,
-.purchase-table td {
-    border: 1px solid #ddd;
-    padding: 6px;
-}
+    /* Links */
+    a {
+        text-decoration: none;
+        background-color: #009879;
+        color: white;
+        padding: 4px 8px;
+        border-radius: 3px;
+    }
 
-.purchase-table th {
-    background-color: #009879;
-    color: white;
->>>>>>> e42ca50ed293a665ccdaa092e3bdb4bc9405205d
-}
+    /* Purchase table */
+    .purchase-table {
+        width: 90%;
+        border-collapse: collapse;
+        margin: 10px auto;
+    }
+
+    .purchase-table th,
+    .purchase-table td {
+        border: 1px solid #ddd;
+        padding: 6px;
+    }
+
+    .purchase-table th {
+        background-color: #009879;
+        color: white;
+    }
